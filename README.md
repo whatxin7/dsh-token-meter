@@ -1,4 +1,4 @@
-# dsh-token-meter
+﻿# dsh-token-meter
 
 > **一句话**：扫 DSH 的会话日志，把「谁、哪天、哪类活、花了多少 token、折多少钱」算清楚，一条命令出 Markdown 账单。
 >
@@ -19,7 +19,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/Derpyu520/dsh-token-meter.git
+git clone https://github.com/whatxin7/dsh-token-meter.git
 cd dsh-token-meter
 node --test          # 29 个用例，全部离线
 ```
@@ -135,13 +135,13 @@ console.log(agg.cost.total, agg.themes[0].theme);
 | 项目 | 对应成本条目 |
 |---|---|
 | **dsh-token-meter**（本仓库） | 用量与成本核算 |
-| [dsh-qq-access](https://github.com/Derpyu520/dsh-qq-access) | 好友 / 白名单 / 权限 |
-| [dsh-qq-voice](https://github.com/Derpyu520/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
-| [dsh-qq-stickers](https://github.com/Derpyu520/dsh-qq-stickers) | 表情包 / 斗图 |
-| [dsh-mcp-safe-tools](https://github.com/Derpyu520/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
-| [dsh-session-link](https://github.com/Derpyu520/dsh-session-link) | 联通会话 / 行为调优 |
-| [dsh-persona-kit](https://github.com/Derpyu520/dsh-persona-kit) | 人格 / 角色卡 |
-| [qq-bridge](https://github.com/Derpyu520/qq-bridge) | 桥接内核（旗舰仓库） |
+| [dsh-qq-access](https://github.com/whatxin7/dsh-qq-access) | 好友 / 白名单 / 权限 |
+| [dsh-qq-voice](https://github.com/whatxin7/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
+| [dsh-qq-stickers](https://github.com/whatxin7/dsh-qq-stickers) | 表情包 / 斗图 |
+| [dsh-mcp-safe-tools](https://github.com/whatxin7/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
+| [dsh-session-link](https://github.com/whatxin7/dsh-session-link) | 联通会话 / 行为调优 |
+| [dsh-persona-kit](https://github.com/whatxin7/dsh-persona-kit) | 人格 / 角色卡 |
+| [qq-bridge](https://github.com/whatxin7/qq-bridge) | 桥接内核（旗舰仓库） |
 
 ## English
 
@@ -149,4 +149,6 @@ console.log(agg.cost.total, agg.themes[0].theme);
 
 ## License
 
-MIT © Derpyu520
+MIT © whatxin7
+
+

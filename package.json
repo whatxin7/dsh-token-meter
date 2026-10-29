@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-token-meter",
   "version": "1.0.0",
   "private": false,
@@ -42,10 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Derpyu520/dsh-token-meter.git"
+    "url": "git+https://github.com/whatxin7/dsh-token-meter.git"
   },
-  "homepage": "https://github.com/Derpyu520/dsh-token-meter#readme",
+  "homepage": "https://github.com/whatxin7/dsh-token-meter#readme",
   "bugs": {
-    "url": "https://github.com/Derpyu520/dsh-token-meter/issues"
+    "url": "https://github.com/whatxin7/dsh-token-meter/issues"
   }
 }
+
+
