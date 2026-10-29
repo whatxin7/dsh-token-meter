@@ -1,0 +1,51 @@
+{
+  "name": "dsh-token-meter",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "DSH (DeepSeek Harness) token 用量与费用核算：扫会话日志 → 按会话/项目/主题折叠 → 官方峰谷价目表折算金额，一条命令出 Markdown 账单。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "token",
+    "usage",
+    "cost",
+    "billing",
+    "zstd",
+    "observability"
+  ],
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "bin": {
+    "token-meter": "./bin/token-meter.mjs"
+  },
+  "exports": {
+    ".": "./src/aggregate.mjs",
+    "./scan": "./src/scan.mjs",
+    "./report": "./src/report.mjs",
+    "./prices": "./src/model-prices.js",
+    "./ledger": "./src/token-ledger.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "report": "node bin/token-meter.mjs report",
+    "scan": "node bin/token-meter.mjs scan",
+    "prices": "node bin/token-meter.mjs prices"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpyu520/dsh-token-meter.git"
+  },
+  "homepage": "https://github.com/Derpyu520/dsh-token-meter#readme",
+  "bugs": {
+    "url": "https://github.com/Derpyu520/dsh-token-meter/issues"
+  }
+}
