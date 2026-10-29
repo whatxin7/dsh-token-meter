@@ -18,6 +18,24 @@
 
 ## 安装
 
+### 三种装法（挑一个）
+
+```bash
+# 1) 零安装，先跑一次试试（需要 node ≥ 20 和 git）
+npx github:whatxin7/dsh-token-meter scan
+
+# 2) 装成全局命令（日常用这个）
+npm i -g github:whatxin7/dsh-token-meter
+
+# 3) 想改代码 / 跑测试
+git clone https://github.com/whatxin7/dsh-token-meter.git
+cd dsh-token-meter && npm install && npm test
+```
+
+> ⚠️ npm 上的 `dsh-token-meter` 这个名字**已被他人占用**（是另一个 DSH token 面板，不是本项目），所以不要 `npm i dsh-token-meter`。
+> 本项目只通过 `github:whatxin7/...` 或源码安装；以后发 npm 会用 `@whatxin7/...` scope。
+
+
 ```bash
 git clone https://github.com/whatxin7/dsh-token-meter.git
 cd dsh-token-meter
